@@ -1,9 +1,11 @@
+#include <servo.h>
+int servoPin = 8;
+int posPin = 90;
+Servo MyServo;
 void setup() {
-  // put your setup code here, to run once:
-
+  MyServo.attach(servoPin);
+  Serial.begin(9600);
 }
-
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  MyServero.write(posPin);
 }
