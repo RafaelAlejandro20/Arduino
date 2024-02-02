@@ -9,7 +9,6 @@ void setup() {
 void loop() {
   Serial.println("Que angulo quieres?");
   while(Serial.available() == 0){
-    
   }
   posPin = Serial.parseInt();
   MyServo.write(posPin);
