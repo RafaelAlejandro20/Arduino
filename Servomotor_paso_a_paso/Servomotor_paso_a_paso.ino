@@ -1,9 +1,11 @@
+#include <Stepper.h>
+int stepsPerRevolution = 2048;
+int modSpeed = 10;
+Stepper MyStepper(stepsPerRevolution,8,10,9,11);
 void setup() {
-  // put your setup code here, to run once:
-
+  MyStepper.setSpeed(modSpeed);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  MyStepper.step(0);
 }
