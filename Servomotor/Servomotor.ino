@@ -8,6 +8,7 @@ void setup() {
   Serial.begin(9600);
 }
 void loop() {
+//Llamada a variable
   Serial.println("Que angulo quieres?");
   while(Serial.available() == 0){
   }
