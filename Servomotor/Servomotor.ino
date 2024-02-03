@@ -1,3 +1,4 @@
+//Añadir bibliotecas
 #include <Servo.h>
 int servoPin = 8;
 int posPin = 0;
