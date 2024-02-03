@@ -10,6 +10,7 @@ void setup() {
 void loop() {
 //Llamada a variable
   Serial.println("Que angulo quieres?");
+//Ingreso de datos
   while(Serial.available() == 0){
   }
 //Cambio de valor
