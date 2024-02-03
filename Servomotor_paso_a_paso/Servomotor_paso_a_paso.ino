@@ -10,6 +10,7 @@ void setup() {
 void loop() {
   MyStepper.step(stepsPerRevolution);
   delay(dt);
+//Cambiar sentido
   MyStepper.step(-stepsPerRevolution);
   delay(dt);
 }
