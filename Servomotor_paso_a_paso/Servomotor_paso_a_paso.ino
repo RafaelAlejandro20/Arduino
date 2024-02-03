@@ -8,6 +8,7 @@ void setup() {
 }
 
 void loop() {
+//Mover servomotor
   MyStepper.step(stepsPerRevolution);
   delay(dt);
 //Cambiar sentido
