@@ -1,3 +1,4 @@
+//Incluir bibliotecas
 #include <Stepper.h>
 int stepsPerRevolution = 2048;
 int modSpeed = 13;
