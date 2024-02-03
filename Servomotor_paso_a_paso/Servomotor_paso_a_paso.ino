@@ -1,5 +1,6 @@
 //Incluir bibliotecas
 #include <Stepper.h>
+//Movimiento del servomotor
 int stepsPerRevolution = 2048;
 int modSpeed = 13;
 Stepper MyStepper(stepsPerRevolution,8,10,9,11);
