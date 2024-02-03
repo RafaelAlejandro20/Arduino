@@ -1,5 +1,6 @@
 //Añadir bibliotecas
 #include <Servo.h>
+//Asignación de variables
 int servoPin = 8;
 int posPin = 0;
 Servo MyServo;
